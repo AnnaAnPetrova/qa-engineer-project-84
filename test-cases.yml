@@ -65,6 +65,19 @@
     - Еще раз выбрать чекбокс данного бренда
   expected-result: |
     Сайт должен показать товары всех брендов
+
+- summary: |
+    Проверка наличия подписей у чекбоксов
+  requirement: |
+    Каждый чекбокс должен иметь подпись
+  prerequisites:
+    No data
+  test-data: |
+    No data
+  steps:
+    No data
+  expected-result: |
+    Каждый чекбокс должен иметь подпись
     
 - summary: |
     Проверка фильтра in stock
