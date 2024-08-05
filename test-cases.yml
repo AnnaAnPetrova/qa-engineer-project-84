@@ -144,5 +144,18 @@
     - Нажать кнопку "Language"
   expected-result: |
     Каждый язык должен иметь свою иконку
+
+- summary: |
+    Проверка информации о товаре
+  requirement: |
+    Каждый товар должен содержать описание
+  prerequisites:
+    No data
+  test-data: |
+    No data
+  steps:
+    No data
+  expected-result: |
+    Каждый товар на странице должен содержать описание
     
 
