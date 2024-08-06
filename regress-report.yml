@@ -30,7 +30,7 @@ test-cases:
 
   - summary: |
       Проверка фильтра in stock
-    status: pass
+    status: fail
 
   - summary: |
       Проверка строки цена
@@ -87,3 +87,29 @@ test-cases:
   - summary: |
       Проверка хранения корзины в сессии браузера
     status: pass
+
+bugreports:
+  - summary: |
+      Ломается поиск по бренду при снятии галочки с чекбокса in stock
+    environment: |
+      Google Chrome   126.0.6478.127 (Официальная сборка) (64 бит)
+      ОС Windows 11
+    steps-to-reproduce: |
+      1. Снять галочку с чекбокса in stock
+      2. Выбрать любой бренд
+    expected-result: |
+      Должны быть показаны все товары выбранного бренда (в наличии и нет)
+    actual-result: |
+      Ничего не происходит, сайт отображает все товары
+
+  - summary: |
+      Пропадает возможность переходить на следующую страницу при снятии галочки с чекбокса in stock
+    environment: |
+      Google Chrome   126.0.6478.127 (Официальная сборка) (64 бит)
+      ОС Windows 11
+    steps-to-reproduce: |
+      1. Снять галочку с чекбокса in stock  
+    expected-result: |
+      Должны быть возможность выбрать следующую страницу
+    actual-result: |
+      Пропадает кнопка Next
