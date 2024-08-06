@@ -112,7 +112,7 @@
   test-data: |
     No data
   steps:
-    - Ввести в окно "From" -1
+    - Ввести в окно "From-To" -100 и -500
   expected-result: |
     Сайт не должен позволить этого сделать
     
