@@ -114,3 +114,14 @@ bugreports:
     actual-result: |
       Пропадает кнопка Next
 
+  - summary: |
+      В строке цена можно вводить отрицательные значения
+    environment: |
+      Google Chrome   126.0.6478.127 (Официальная сборка) (64 бит)
+      ОС Windows 11
+    steps-to-reproduce: |
+      1. Ввести в окно строки Price "From-To" -100 и -500
+    expected-result: |
+      Сайт не должен позволить этого сделать
+    actual-result: |
+      Сортировка не происходит, сайт отображает все товары
