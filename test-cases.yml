@@ -6,7 +6,7 @@
   prerequisites:
     No data
   test-data: |
-    no data
+    No data
   steps:
     - Ввести в поле поиска любое название товара
   expected-result: |
@@ -19,7 +19,7 @@
   prerequisites:
     No data
   test-data: |
-    no data
+    No data
   steps:
     - Выбрать любую категорию
   expected-result: |
@@ -73,7 +73,7 @@
   test-data: |
     No data
   steps:
-    No data
+    - No data
   expected-result: |
     Каждый чекбокс должен иметь подпись
     
@@ -208,7 +208,7 @@
   test-data: |
     No data
   steps:
-    No data
+    - No data
   expected-result: |
     В корзине должна отображаться общая сумма всех лежащих в ней товаров
 
