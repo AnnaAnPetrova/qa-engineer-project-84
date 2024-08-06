@@ -8,5 +8,33 @@
   status: pass
 
 - summary: |
+    Отключение фильтра по категории
+  status: fail
+
+- summary: |
     Проверка поиска по бренду
   status: pass
+
+- summary: |
+    Отключение фильтра по бренду
+  status: pass
+
+- summary: |
+    Проверка наличия подписей у чекбоксов
+  status: fail
+
+- summary: |
+    Проверка фильтра in stock
+  status: fail
+
+- summary: |
+    Проверка сортировки по цене
+  status: pass
+
+- summary: |
+    Проверка сортировки по цене
+  status: pass
+
+- summary: |
+    Проверка строки цена
+  status: fail
