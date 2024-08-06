@@ -72,15 +72,15 @@
   status: fail
 
 - summary: |
+    Проверка закрытия окна о размещении заказа
+  status: fail
+
+- summary: |
     Проверка наличия связи с пользователем
   status: fail
 
 - summary: |
     Проверка кнопки "Clear cart"
-  status: pass
-
-- summary: |
-    Проверка хранения корзины в сессии браузера
   status: pass
 
 - summary: |
