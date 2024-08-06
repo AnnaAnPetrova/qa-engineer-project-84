@@ -38,3 +38,51 @@
 - summary: |
     Проверка строки цена
   status: fail
+
+- summary: |
+    Проверка изменения языка сайта
+  status: fail
+
+- summary: |
+    Проверка отображения иконок языков
+  status: fail
+
+- summary: |
+    Проверка информации о товаре
+  status: pass
+
+- summary: |
+    Проверка добавление товара в корзину
+  status: pass
+
+- summary: |
+    Проверка сохранения товара в корзине после дальнейшего поиска товара
+  status: pass
+
+- summary: |
+    Проверка общей суммы товаров в корзине
+  status: pass
+
+- summary: |
+    Проверка кнопки Continue shopping
+  status: pass
+
+- summary: |
+    Проверка оформления заказа
+  status: fail
+
+- summary: |
+    Проверка наличия связи с пользователем
+  status: fail
+
+- summary: |
+    Проверка кнопки "Clear cart"
+  status: pass
+
+- summary: |
+    Проверка хранения корзины в сессии браузера
+  status: pass
+
+- summary: |
+    Проверка хранения корзины в сессии браузера
+  status: pass
