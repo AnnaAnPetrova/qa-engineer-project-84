@@ -34,7 +34,7 @@ test-cases:
 
   - summary: |
       Проверка изменения языка сайта
-    status: pass
+    status: fail
 
   - summary: |
       Проверка информации о товаре
