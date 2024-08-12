@@ -21,27 +21,19 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверка наличия подписей у чекбоксов
-    status: fail
-
-  - summary: |
       Проверка фильтра in stock
     status: fail
 
   - summary: |
-      Проверка фильтра in stock
-    status: fail
+      Проверка сортировки по цене
+    status: pass
 
   - summary: |
-      Проверка строки цена
+      Проверка положительных значений в строке цена
     status: fail
 
   - summary: |
       Проверка изменения языка сайта
-    status: pass
-
-  - summary: |
-      Проверка отображения иконок языков
     status: pass
 
   - summary: |
@@ -74,10 +66,6 @@ test-cases:
 
   - summary: |
       Проверка закрытия окна о размещении заказа
-    status: fail
-
-  - summary: |
-      Проверка наличия связи с пользователем
     status: fail
 
   - summary: |
